@@ -116,3 +116,13 @@ event(params)
  */
 error(params)
 ```
+
+### Vue配置
+兼容性考虑``vue.config.js``文件中应添加以下配置
+```js
+module.exports = {
+    transpileDependencies: [
+        /[/\\]node_modules[/\\]@4a\/sdk-action[/\\]/,
+    ],
+}
+```
