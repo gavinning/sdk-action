@@ -1,0 +1,26 @@
+{
+  "name": "@4a/sdk-action",
+  "version": "0.1.0",
+  "description": "事件上报",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gavinning/sdk-action.git"
+  },
+  "keywords": [
+    "action",
+    "sdk-action"
+  ],
+  "author": "gavinning",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gavinning/sdk-action/issues"
+  },
+  "homepage": "https://github.com/gavinning/sdk-action#readme",
+  "devDependencies": {
+    "axios": "^0.19.2"
+  }
+}
