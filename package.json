@@ -1,8 +1,8 @@
 {
   "name": "@4a/sdk-action",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "事件上报",
-  "main": "index.js",
+  "main": "src/action.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
