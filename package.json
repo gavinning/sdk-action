@@ -1,6 +1,6 @@
 {
   "name": "@4a/sdk-action",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "事件上报",
   "main": "src/action.js",
   "scripts": {

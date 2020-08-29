@@ -88,11 +88,11 @@ class Action {
         return this.$isNodejs() ? this.params : {
             ...this.params,
             url: location.href,
-            uid: localStorage['uid'],
+            uid: localStorage['uid'] || localStorage['user'] || localStorage['username'],
             tmp: localStorage['tmp'],
             pid: sessionStorage['pid'],
             from: sessionStorage['from'],
-            screen: window.screen,
+            screen: `${window.screen.width}*${window.screen.height}`,
             referrer: document.referrer,
         }
     }
