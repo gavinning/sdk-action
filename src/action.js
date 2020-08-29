@@ -81,7 +81,9 @@ class Action {
             params.context = JSON.stringify(params.context)
         }
         const options = Object.assign({}, this.axios, { params, data: params })
-        return axios(options).catch(() => axios(options))
+        return axios(options).catch(() => {
+            axios(options).catch(err => console.error('Error Action:', err))
+        })
     }
 
     $params() {
